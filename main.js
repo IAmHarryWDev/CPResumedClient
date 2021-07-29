@@ -43,14 +43,14 @@ function createWindow () {
 
   mainWindow.setMenu(null);
   clearCache();
-  mainWindow.loadURL('https://waddlepenguins.tk/launcher/');
+  mainWindow.loadURL('https://cpresumed.xyz');
 
   // RICH PRESENCE START
-  const clientId = '796476157415522354'; DiscordRPC.register(clientId); const rpc = new DiscordRPC.Client({ transport: 'ipc' }); const startTimestamp = new Date();
+  const clientId = '870269540032995388'; DiscordRPC.register(clientId); const rpc = new DiscordRPC.Client({ transport: 'ipc' }); const startTimestamp = new Date();
   rpc.on('ready', () => {
     rpc.setActivity({
-      details: `waddlepenguins.tk`, 
-      state: `Client - Made by AltoDev.`, 
+      details: `cpresumed.xyz`, 
+      state: `Waddling around and playing Minigames!`, 
       startTimestamp, 
       largeImageKey: `main-logo`//, 
       //largeImageText: "LARGE IMAGE TEXT", 
