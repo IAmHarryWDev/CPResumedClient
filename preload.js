@@ -12,8 +12,8 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 */
 
-function redirect(){window.location.href = 'https://cpresumed.xyz';}
+function redirect(){window.location.href = 'https://play.cpresumed.xyz';}
 window.addEventListener('DOMContentLoaded', () => {
   var url = window.location.href;
-    if(url.includes('waddlepenguins.tk') == false){redirect();}
+    if(url.includes('cpresumed.xyz') == false){redirect();}
   });
