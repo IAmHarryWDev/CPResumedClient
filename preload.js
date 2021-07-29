@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 */
 
-function redirect(){window.location.href = 'https://waddlepenguins.tk/launcher/';}
+function redirect(){window.location.href = 'https://cpresumed.xyz';}
 window.addEventListener('DOMContentLoaded', () => {
   var url = window.location.href;
     if(url.includes('waddlepenguins.tk') == false){redirect();}
