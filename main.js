@@ -43,7 +43,7 @@ function createWindow () {
 
   mainWindow.setMenu(null);
   clearCache();
-  mainWindow.loadURL('https://cpresumed.xyz');
+  mainWindow.loadURL('https://play.cpresumed.xyz');
 
   // RICH PRESENCE START
   const clientId = '870269540032995388'; DiscordRPC.register(clientId); const rpc = new DiscordRPC.Client({ transport: 'ipc' }); const startTimestamp = new Date();
